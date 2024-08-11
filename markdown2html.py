@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Task 1 on rendering a README html file."""
 import sys
 import os
