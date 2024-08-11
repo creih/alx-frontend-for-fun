@@ -17,13 +17,13 @@ def parse_markdown_line(line, in_list):
         if in_list:
             in_list = False
             return (f"</ul>\n<h{len(heading_match.group(1))}>"
-                    f"{
-                        heading_match.group(2)
-                        }</h{len(heading_match.group(1))}>",
+                    f"{heading_match.group(2)}"
+                    f"</h{len(heading_match.group(1))}>",
                     in_list)
 
         return (f"<h{len(heading_match.group(1))}>"
-                f"{heading_match.group(2)}</h{len(heading_match.group(1))}>",
+                f"{heading_match.group(2)}"
+                f"</h{len(heading_match.group(1))}>",
                 in_list)
 
     if list_item_match:
