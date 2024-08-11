@@ -43,9 +43,7 @@ def main():
         html_lines.append(html_line)
 
     with open(output_file, 'w') as out_file:
-        out_file.write("<html><body>\n")
         out_file.write("\n".join(html_lines))
-        out_file.write("\n</body></html>")
 
     sys.exit(0)
 
