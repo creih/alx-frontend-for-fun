@@ -1,0 +1,52 @@
+/*
+Write a CSS file that display a set of boxes in the same layout as the example screenshot below.
+
+    Choose a custom color for each box
+    You must use flex
+    You are not allowed to use float
+    You are not allowed to use text-align
+    You are not allowed to use margin or padding
+    You are not allowed to change the HTML file
+
+Use the 101-index.html
+*/
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box {
+    font-size: 3rem;
+    font-family: Arial,sans-serif;
+    text-align: center;
+    color: white;
+    flex: 1;
+}
+
+.box1 {
+    background-color: #2ecc71;
+}
+.box2 {
+    background-color: #3498db;
+}
+.box3 {
+    background-color: #34495e;
+}
+.box4 {
+    background-color: #9b59b6;
+}
+.box5 {
+    background-color: #e67e22;
+}
