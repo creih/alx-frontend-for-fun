@@ -11,8 +11,6 @@ Write a CSS file that display a set of boxes in the same layout as the example s
 Use the 101-index.html
 */
 body {
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
