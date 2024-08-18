@@ -34,16 +34,22 @@ body {
 
 .box1 {
     background-color: #2ecc71;
+    height: 60vh;
+    
 }
 .box2 {
     background-color: #3498db;
+    height: 80vh;
 }
 .box3 {
     background-color: #34495e;
+    height: 100vh;
 }
 .box4 {
     background-color: #9b59b6;
+    height: 80vh;
 }
 .box5 {
     background-color: #e67e22;
+    height: 60vh;
 }
