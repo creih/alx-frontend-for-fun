@@ -30,7 +30,6 @@ body {
 .box {
     font-size: 3rem;
     font-family: Arial,sans-serif;
-    text-align: center;
     color: white;
     flex: 1;
 }
