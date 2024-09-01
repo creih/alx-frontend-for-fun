@@ -666,6 +666,7 @@
   
   .card-work .card-title a {
     display: block;
+    opacity: 0;
     text-decoration: none;
     padding-top: 45%;
   }
