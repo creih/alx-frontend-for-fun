@@ -1,0 +1,25 @@
+body {
+    height: max-content;
+    width: max-content;
+    background-color: #f7f7f7;
+}
+ul {
+    background-image: url(./0-sprite.png);
+    background-repeat: no-repeat;
+    display: flex;
+    float: left;
+    list-style: none;
+}
+
+ul li {
+    margin-left: -16px;
+    margin-right: 45px;
+    padding: 0 14vh 0 14vh;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 350px;
+    width: 30px;
+    text-align: center;
+    font-size: large;
+    font-weight: 300;
+}
