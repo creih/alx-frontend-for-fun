@@ -3,6 +3,7 @@ body {
     width: max-content;
     background-color: #f7f7f7;
 }
+
 ul {
     background-image: url(./0-sprite.png);
     background-repeat: no-repeat;
@@ -17,9 +18,7 @@ ul li {
     padding: 0 14vh 0 14vh;
     border: 2px solid black;
     border-radius: 20px;
-    height: 350px;
+    height: 400px;
     width: 30px;
-    text-align: center;
-    font-size: large;
-    font-weight: 300;
+    font-weight: 600;
 }

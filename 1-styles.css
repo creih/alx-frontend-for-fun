@@ -1,0 +1,20 @@
+a {
+    position: relative;
+    color: brown; /* Link color */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px; /* Adjust underline position */
+    width: 0;
+    height: 2px; /* Underline thickness */
+    background-color: brown; /* Underline color */
+    transition: width 0.3s ease;
+  }
+  
+  a:hover::after {
+    width: 100%;
+  }
