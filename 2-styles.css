@@ -1,0 +1,73 @@
+.toggle-cb {
+    display: none;
+  }
+  
+  .toggle {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 30px;
+  }
+  
+  /* The background of the toggle (label) */
+  .toggle-label {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd; /* Default background */
+    border-radius: 34px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+  }
+  
+  /* The circle that moves (toggle knob) */
+  .toggle-switch {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    background-color: white;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.4s;
+  }
+  
+  /* The text inside the toggle */
+  .toggle-inner {
+    position: absolute;
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: color 0.4s, left 0.4s;
+  }
+  
+  /* When the checkbox is checked */
+  .toggle-cb:checked + .toggle-label {
+    background-color: #e53935; /* Background for 'Yes' */
+  }
+  
+  /* Move the knob to the right when checked */
+  .toggle-cb:checked + .toggle-label .toggle-switch {
+    transform: translateX(30px);
+  }
+  
+  /* Change the text and color when checked */
+  .toggle-cb:checked + .toggle-label .toggle-inner {
+    color: white;
+    left: 10px;
+    right: auto;
+    content: "Yes";
+  }
+  
+  /* Default styles for unchecked */
+  .toggle-label .toggle-inner::before {
+    content: "No";
+  }
+  
+  .toggle-cb:checked + .toggle-label .toggle-inner::before {
+    content: "Yes";
+  }
