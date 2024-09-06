@@ -52,6 +52,11 @@
     transform: scale(0);
     transition: transform 0.3s ease;
   }
+  .menu-item:hover {
+    background-color: white;
+    color: #e53935;
+    border: 1px solid #e53935;
+  }
   
   /* Menu items initial positions (hidden) */
   .menu-item:nth-child(3) {
