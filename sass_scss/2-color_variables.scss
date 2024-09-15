@@ -1,0 +1,13 @@
+/* changing text color and background colors */
+$col: #3D3D3D;
+$bcol: #6D6D6D;
+body {
+  color: $col;
+  background-color: $bcol;
+}
+p {
+  color: $col;
+}
+h2 {
+  background-color: $bcol;
+}
