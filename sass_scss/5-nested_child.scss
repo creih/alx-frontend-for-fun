@@ -1,0 +1,9 @@
+/* txt color to body elements, 1st children of .red in body */
+$col: #3D3D3D;
+$col1: #FF0000;
+body {
+    color: $col;
+    .red:first-child {
+        color: $col1;
+    }
+}
