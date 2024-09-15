@@ -1,9 +1,8 @@
 /* using hover */
-$col: #FF0000;
-$bcol: #00FF00;
 button {
-    color: $col;
-    button:hover {
-        color: $bcol;
+    color: #FF0000;
+  
+    &:hover {
+      color: #00FF00;
     }
-}
+  }
