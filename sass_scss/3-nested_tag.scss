@@ -3,10 +3,12 @@ no margin or padding in body
 margin in p and body
 nested declaration
 */
+$marg: 10px;
 body {
     margin: 0;
     padding: 0;
+
     p {
-        margin: 10px;
+        margin: $marg;
     }
 }
