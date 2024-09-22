@@ -14,10 +14,9 @@ body {
     h1 {
         font-size: $h1-font-size;
     }
-    .smaller {
-        h1{
+    h1 {
+        .smaller{
             font-size: $class-font-size;
         }
-        
     }
 }
