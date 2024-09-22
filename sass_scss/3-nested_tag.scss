@@ -7,9 +7,10 @@ Write a Sass file that assigns:
 
 */
 $marg: 10px;
+$nil: 0;
 body {
-    margin: 0;
-    padding: 0;
+    margin: $nil;
+    padding: $nil;
 
     p {
         margin: $marg;
