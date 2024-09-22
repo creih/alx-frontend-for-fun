@@ -1,0 +1,15 @@
+/*
+Write a Sass file that sorts the variable $list_to_sort and prints the sorted list in the debug output.
+
+guillaume@ubuntu:~/$ cat 103-sort_list.scss 
+$list_to_sort: john anna zoe kim felicia carrie;
+guillaume@ubuntu:~/$ sass 103-sort_strings.scss | tail -n +2
+103-sort_strings.scss:64 DEBUG: anna carrie felicia john kim zoe
+guillaume@ubuntu:~/$ 
+
+*/
+@import '103-sort_list.scss';
+
+$list_sorted: sort($list_to_sort);
+
+@debug $list_sorted;
