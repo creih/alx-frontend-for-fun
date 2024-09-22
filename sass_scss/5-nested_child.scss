@@ -9,7 +9,9 @@ $col: #3D3D3D;
 $col1: #FF0000;
 body {
     color: $col; 
-}
-body > .red {
-    color: $col1;
+
+    body > .red {
+        color: $col1;
+    }
+    
 }
