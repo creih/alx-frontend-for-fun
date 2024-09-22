@@ -8,10 +8,9 @@ Write a Sass file that assigns:
 $col: #3D3D3D;
 $col1: #FF0000;
 body {
-    color: $col; 
-
-    body > .red {
+    color: $col;
+    
+    body > .red:first-child {
         color: $col1;
     }
-    
 }
