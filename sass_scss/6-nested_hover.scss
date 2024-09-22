@@ -1,8 +1,10 @@
 /* using hover */
+$btn-color: #FF0000;
+$btn-hover-color: #00FF00;
 button {
-    color: #FF0000;
+    color: $btn-color;
   
     &:hover {
-      color: #00FF00;
+      color: $btn-hover-color;
     }
   }
