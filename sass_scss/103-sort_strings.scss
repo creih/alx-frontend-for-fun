@@ -8,7 +8,7 @@ guillaume@ubuntu:~/$ sass 103-sort_strings.scss | tail -n +2
 guillaume@ubuntu:~/$ 
 
 */
-@import '103-sort_list.scss';
+$list_to_sort: john anna zoe kim felicia carrie;
 
 $list_sorted: sort($list_to_sort);
 
