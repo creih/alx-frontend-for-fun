@@ -7,7 +7,7 @@ Write a Sass file that assigns:
 */
 $col: #FF0000;
 $hover-color: #00FF00;
-button {
+.button {
   color: $col;
 
   > :hover {
