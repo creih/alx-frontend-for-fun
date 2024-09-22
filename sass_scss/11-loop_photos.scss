@@ -1,0 +1,15 @@
+/*
+Write a Sass file that creates a class for each name in the list $list-names and assigns the background image based on the name (example below):
+
+    You must use @import
+    You must use @each statement
+*/
+@import 'your-path-to-image-url-function';
+
+$list-names: julien john sam damian;
+
+@each $name in $list-names {
+    .photo-#{$name} {
+        background: image-url("photos/#{$name}.jpg") no-repeat;
+    }
+}
