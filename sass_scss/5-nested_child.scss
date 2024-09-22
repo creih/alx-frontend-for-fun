@@ -10,7 +10,7 @@ $col1: #FF0000;
 body {
     color: $col;
     
-    .red:first-child {
+    > .red:first-child {
         color: $col1;
     }
 }
