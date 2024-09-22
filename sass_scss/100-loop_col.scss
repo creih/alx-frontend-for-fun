@@ -10,6 +10,7 @@ Write a Sass file that creates classes with different width:
 */
 @for $i from 1 through 4 {
     .col-#{$i} {
+        
         @if $i == 1 {
             width: 100%;
         } @else if $i == 2 {
